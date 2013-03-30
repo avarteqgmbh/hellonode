@@ -1,0 +1,9 @@
+---
+applications:
+- name: hellonode
+  framework: node
+  runtime: node
+  memory: 64M
+  instances: 1
+  url: hellonode.${target-base}
+  path: .
